@@ -1,0 +1,12 @@
+{
+	"galaxy.meteor.com": {
+		"env": {
+			"MONGO_URL": "",
+			"MONGO_OPLOG_URL": ""
+		}
+	},
+	"kadira": { 
+  		"appId": "vPk2T95GZf4uSqucQ", 
+  		"appSecret": "faddeb27-f68d-4db4-9e3f-3c2f44d348be" 
+ 	}
+}

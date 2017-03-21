@@ -1,0 +1,26 @@
+<template name="College">
+	<article class="college {{#if applied}}applied{{/if}}">
+		<h3>{{name}}</h3>
+		{{#if editMode}}
+			{{> quickForm collection="Colleges" id=updateCollegeId type="update" doc=this autosave=true}}
+		{{else}}
+			<p>{{description}}</p>
+		
+			<!-- <p>
+				{{#each visits}}
+					<span class="visit">Submitted on {{date}}</span>
+				{{/each}}
+			</p> -->
+			<a href="/college/{{_id}}">View Details</a>
+			{{#if applied}}
+				<button class= "btn-deny toggle-menu"> Won't Apply</button>
+			{{else}}
+				<button class= "btn-primary toggle-menu"> Will Apply</button>
+			{{/if}}
+		{{/if}}
+		<i class="fa fa-pencil"></i>
+		<i class="fa fa-trash"></i>
+
+		
+	</article>
+</template>

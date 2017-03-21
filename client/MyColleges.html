@@ -1,0 +1,13 @@
+<template name="MyColleges">
+	<h1 class="page-title">My Applications</h1>
+	{{#each colleges}}	
+		{{> CollegeItem}}
+	{{/each}}
+</template>
+
+<template name="CollegeItem">
+	<div class="menu-item">
+		<h3>{{name}}</h3>
+		<p>{{description}}</p>
+	</div>
+</template>

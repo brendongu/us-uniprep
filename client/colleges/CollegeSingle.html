@@ -1,0 +1,8 @@
+<template name="CollegeSingle">
+	<h1>{{college.name}}</h1>	
+	<h3><b>Details:</b></h3>
+	<h3>{{#each visits}}
+			<span class="visit">Submitted on {{this.date}}</span>
+		{{/each}}
+	</h3>
+</template>

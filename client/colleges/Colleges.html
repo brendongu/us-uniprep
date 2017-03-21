@@ -1,0 +1,18 @@
+<template name="Colleges">
+	{{#if $.Session.get 'addCollege'}}
+		{{> AddCollege}}
+	{{else}}
+		<button class="new-college">Add a Visit</button>
+	{{/if}}
+		
+	<section class="colleges">
+		{{#if Template.subscriptionsReady}}
+			{{#each colleges}}
+				{{> College}}
+			{{/each}}
+		{{else}}
+			<p>Loading...</p>
+		{{/if}}
+	</section>
+
+</template>
