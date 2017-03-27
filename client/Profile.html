@@ -5,7 +5,7 @@
 <h1> Student Information </h1>
 <h2> Basic Information </h2>
 <h3>Name</h3>
-<style>
+<style>         /*Sets Up Content Editable*/
 [contenteditable]:hover:after {
   content: ' click to edit';
   font-style: italic;
@@ -29,34 +29,34 @@
 </style>
 
 <style>
-body {
+body {                              /*Page Background*/
     background-color: lightblue;
 }
 
-h1 {
+h1 {                               /*Primary Header Style and Color*/
     color:#0000FF;
     text-align: center;
 }
 
-h2{
+h2{                                /*Secondary Header Style and Color*/
     text-align: center;
     color:#228B22;
     font-weight:bold;
 }
-h3 {
+h3 {                              /*Tertiary Header Style amd Color*/ 
     color:#4169E1;
     font-family:georgia ;
     text-align: center;
     font-size: 16px;
 }
-p
+p                                /*Sets Up Style of the Text That Can Be Edited*/
 {
     text-align: center;
     color:gray;
 }
 </style>
-
-<div class= "boxed">
+  
+<div class= "boxed">                                            /*All of the Info In the Profile*/                      
  <p contenteditable data-name="title" id="Name">Edit Name</p>
   <div id="debug"></div>
 </div>
