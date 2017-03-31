@@ -1,240 +1,134 @@
-<!DOCTYPE html>
-<html>
-<head>
+<template name="Profile">
+    <h1 class="page-title">My Profile</h1>
 
-<h1> Student Information </h1>
-<h2> Basic Information </h2>
-<h3>Name</h3>
-<style>         /*Sets Up Content Editable*/
-[contenteditable]:hover:after {
-  content: ' click to edit';
-  font-style: italic;
-  font-size: 12px;
-  font-family: sans-serif;
-  color: #ccc;
-  .text-stroke(0);
-}
+    <head>
+        <h2> Basic Information </h2>
+        <h3>Name</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="title" id="Name">Edit Name...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Grade Level</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Grade Level">Edit Grade Level...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Weighted GPA</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Weighted GPA">Edit Weighted GPA...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Unweighted GPA</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Unweighted GPA">Edit Unweighted GPA...</p>
+            <div id="debug"></div>
+        </div>
 
-[contenteditable]:hover, [contenteditable]:focus {
-  background: #FFFFD3;
-}
+        <h2> Test Scores </h2>
+        <h3>Highest Combined SAT Score...</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Highest Combined SAT Score">Edit Highest Combined SAT Score...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Highest Single SAT Score</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Highest Single SAT Score">Edit Highest Single SAT Score...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>All SAT Scores</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="All SAT Scores">Edit All SAT Scores...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Highest Combined ACT Score</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Highest Combined ACT Score">Edit Highest Combined ACT Score...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Highest Single ACT Score</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Highest Single ACT Score">Edit Highest Single ACT Score...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>All ACT Scores</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="All ACT Scores">Edit All ACT Scores...</p>
+            <div id="debug"></div>
+        </div>
 
-[contenteditable]:focus {
-  padding: 5px;
-}
+        <h2> Extracurricular Activities </h2>
+        <h3>Sports</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Sports">Edit Sports...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Visual and Performing Arts</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Visual and Performing Arts">Edit Visual and Performing Arts...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Clubs</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Clubs">Edit Clubs...</p>
+            <div id="debug"></div>
+        </div>
 
-[contenteditable]:focus:after {
-  content: '';
-}
-</style>
+        <h2> Community Service </h2>
+        <h3>Organization 1</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Organization">Edit Organization...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Total Number of Hours Given</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Total Number of Hours Given">Edit Total Number of Hours Given...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Organization 2</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Organization">Edit Organization...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Total Number of Hours Given</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Total Number of Hours Given">Edit Total Number of Hours Given...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Organization 3</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Organization">Edit Organization...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Total Number of Hours Given</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Total Number of Hours Given">Edit Total Number of Hours Given...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Organization 4</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Organization">Edit Organization...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Total Number of Hours Given</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Total Number of Hours Given">Edit Total Number of Hours Given...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Organization 5</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Organization">Edit Organization...</p>
+            <div id="debug"></div>
+        </div>
+        <h3>Total Number of Hours Given</h3>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="Total Number of Hours Given">Edit Total Number of Hours Given...</p>
+            <div id="debug"></div>
+        </div>
 
-<style>
-body {                              /*Page Background*/
-    background-color: lightblue;
-}
-
-h1 {                               /*Primary Header Style and Color*/
-    color:#0000FF;
-    text-align: center;
-}
-
-h2{                                /*Secondary Header Style and Color*/
-    text-align: center;
-    color:#228B22;
-    font-weight:bold;
-}
-h3 {                              /*Tertiary Header Style amd Color*/ 
-    color:#4169E1;
-    font-family:georgia ;
-    text-align: center;
-    font-size: 16px;
-}
-p                                /*Sets Up Style of the Text That Can Be Edited*/
-{
-    text-align: center;
-    color:gray;
-}
-</style>
-  
-<div class= "boxed">                                            
- <p contenteditable data-name="title" id="Name">Edit Name</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Grade Level</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Grade Level">Edit Grade Level</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Weighted GPA</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Weighted GPA">Edit Weighted GPA</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Unweighted GPA</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Unweighted GPA">Edit Unweighted GPA</p>
-  <div id="debug"></div>
-</div>
-
-<h2> Test Scores </h2>
-
-<h3>Highest Combined SAT Score</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Highest Combined SAT Score">Edit Highest Combined SAT Score</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Highest Single SAT Score</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Highest Single SAT Score">Edit Highest Single SAT Score</p>
-  <div id="debug"></div>
-</div>
-
-<h3>All SAT Scores</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="All SAT Scores">Edit All SAT Scores</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Highest Combined ACT Score</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Highest Combined ACT Score">Edit Highest Combined ACT Score</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Highest Single ACT Score</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Highest Single ACT Score">Edit Highest Single ACT Score</p>
-  <div id="debug"></div>
-</div>
-
-<h3>All ACT Scores</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="All ACT Scores">Edit All ACT Scores</p>
-  <div id="debug"></div>
-</div>
-
-<h2> Extracurricular Activities </h2>
-
-<h3>Sports</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Sports">Edit Sports</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Visual and Performing Arts</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Visual and Performing Arts">Edit Visual and Performing Arts</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Clubs</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Clubs">Edit Clubs</p>
-  <div id="debug"></div>
-</div>
-
-<h2> Community service </h2>
-
-<h3>Organization 1</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Organization">Edit Organization</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Total Number of Hours Given</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Total Number of Hours Given">Edit Total Number of Hours Given</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Organization 2</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Organization">Edit Organization</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Total Number of Hours Given</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Total Number of Hours Given">Edit Total Number of Hours Given</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Organization 3</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Organization">Edit Organization</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Total Number of Hours Given</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Total Number of Hours Given">Edit Total Number of Hours Given</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Organization 4</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Organization">Edit Organization</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Total Number of Hours Given</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Total Number of Hours Given">Edit Total Number of Hours Given</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Organization 5</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Organization">Edit Organization</p>
-  <div id="debug"></div>
-</div>
-
-<h3>Total Number of Hours Given</h3>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Total Number of Hours Given">Edit Total Number of Hours Given</p>
-  <div id="debug"></div>
-</div>
-
-<h2> Colleges I'm Interested In</h2>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="Colleges I'm Interested In">Edit Colleges I'm Interested In</p>
-  <div id="debug"></div>
-</div>
-
-<h2> My Essay </h2>
-
-<div class= "boxed">
- <p contenteditable data-name="body" id="My Essay">Edit My Essay (Copy and Paste Your College Essay Here)</p>
-  <div id="debug"></div>
-</div>
-
-</head>
-
-
+        <h2> My Essay </h2>
+        <div class="new-college-container">
+            <p contenteditable data-name="body" id="My Essay">[Copy and Paste Your College Essay Here]</p>
+            <div id="debug"></div>
+        </div>
+    </head>
+</template>
