@@ -1,0 +1,38 @@
+<head>
+  <title>Uniprep</title>
+</head>
+
+<body>
+  <h1>Uniprep College Searcher</h1>
+  <br>
+  {{> search}}
+</body>
+
+
+<template name="search">
+  <div class="page-header clearfix">
+    <h4 class="pull-left">Colleges</h4>
+    <div class="pull-right">
+      <input type="text" name="search" class="form-control" width="250px" placeholder="Find a college...">
+    </div>
+  </div>
+
+  <ul class="list-group">
+    {{#if searching}}
+      {{> loading}}
+    {{else}}
+      {{#each colleges}}
+        <li class="list-group-item clearfix">
+          <span class="pull-left">{{name}}, <strong>{{location}}</strong></span>
+          <span class="pull-right">{{SAT}}</span>
+        </li>
+      {{else}}
+        <p class="alert alert-warning">Nothing found for {{query}}.</p>
+      {{/each}}
+    {{/if}}
+  </ul>
+</template>
+
+<template name="loading">
+ <IMG SRC="giphy.gif">
+</template>
