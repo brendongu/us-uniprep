@@ -20,7 +20,7 @@ computer.
             
     -cd users
             
-    -cd your account
+    -cd youraccount
             
             
           `mkdir Meteor`                            (This will create a Meteor directory (folder) in your personal folder)
