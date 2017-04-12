@@ -16,7 +16,7 @@ computer.
     
   -Type the following commands into Powershell:    (If it isn't obvious, hit enter after each command)
         
-    -set-location C:                             (This will take you to the C:\ drive from the default H:\ drive)
+    -set-location C:                             (This will take you to the C: drive from the default H: drive)
             
     -cd users
             
