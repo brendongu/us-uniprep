@@ -19,8 +19,8 @@ computer.
     -set-location C:                             (This will take you to the C: drive from the default H: drive)
             
     -cd users
-            
-    -cd youraccount
+    
+    -cd users
             
             
           `mkdir Meteor`                            (This will create a Meteor directory (folder) in your personal folder)
