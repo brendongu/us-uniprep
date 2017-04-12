@@ -16,13 +16,16 @@ computer.
     
   -Type the following commands into Powershell:    (If it isn't obvious, hit enter after each command)
         
-    -set-location C:                             (This will take you to the C: drive from the default H: drive)
+    -set-location C:                               (This will take you to the C: drive from the default H: drive)
             
     -cd users
     
-    -cd (your login username)
+    -cd (your login username)                      (your school login username: ie. nguyenj (John Nguyen); gub (Brendon Gu))
+    
+    -mkdir Meteor                                  (This will create a Meteor directory (folder) in your personal folder)
             
+           
+           
             
-          `mkdir Meteor`                            (This will create a Meteor directory (folder) in your personal folder)
-            
-            `cd M`
+          
+          
