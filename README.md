@@ -20,7 +20,9 @@ computer.
             
             * cd users
             
-            * cd your account                           (your school login username: ie. nguyenj (John Nguyen); gub (Brendon Gu))
+            
             
             
-          
+          `mkdir Meteor`                            (This will create a Meteor directory (folder) in your personal folder)
+            
+            `cd M`
