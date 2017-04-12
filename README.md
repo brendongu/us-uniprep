@@ -12,15 +12,15 @@ computer.
 2. Download the entire app from the repository. (https://github.com/brendongu/us-uniprep --> Clone or download --> Download ZIP)
 3. Create a folder for Meteor projects in the computer's C:\ drive.
 
-    - If you are using a school desktop, open Windows Powershell
+*If you are using a school desktop, open Windows Powershell
     
-        - Type the following commands into Powershell:    (If it isn't obvious, hit enter after each command)
+*Type the following commands into Powershell:    (If it isn't obvious, hit enter after each command)
         
             * set-location C:                             (This will take you to the C:\ drive from the default H:\ drive)
             
             * cd users
             
-            * cd your account                             
+            * cd your account
             
             
           `mkdir Meteor`                            (This will create a Meteor directory (folder) in your personal folder)
