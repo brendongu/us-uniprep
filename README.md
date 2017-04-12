@@ -1,6 +1,6 @@
 # us-uniprep
 
-Hello! If you are reading this, you are likely a future Academy class! (... or you somehow found it randomly)
+##Hello! If you are reading this, you are likely a future Academy class! (... or you somehow found it randomly)
 
 This is an application developed by the R&D Department of Unperplexed Solutions during the 2016-2017 school year.
 
