@@ -14,7 +14,7 @@ computer.
 2. Download the entire app from the repository. (https://github.com/brendongu/us-uniprep --> Clone or download --> Download ZIP)
 3. Create a folder for Meteor projects in the computer's C:\ drive.
 
-    - If you are using a school desktop, open Windows Powershell
+    - If you are using a school desktop, open Windows Powershell.
     
         - Type the following commands into Powershell:    (If it isn't obvious, hit enter after each command)
         
@@ -25,9 +25,21 @@ computer.
             * cd (your login username)                      (your school login username: ie. nguyenj (John Nguyen); gub (Brendon Gu))
     
             * mkdir Meteor                                  (This will create a Meteor directory (folder) in your personal folder)
+    
+    - If you are using a personal computer, you just need to create the folder in your C:\ drive. This can be done by just using File Explorer.
             
-           
-           
+4. Extract the zip into the Meteor folder just created.
+5. Run the app.
+
+    - Next, in Powershell/Command Prompt:
+            
+            * cd Meteor
+            
+            * cd us-uniprep-master
+            
+            * meteor npm install
+            
+            * meteor
             
           
           
