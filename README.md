@@ -18,13 +18,13 @@ computer.
     
         - Type the following commands into Powershell:    (If it isn't obvious, hit enter after each command)
         
-            * `set-location C:`                               (This will take you to the C: drive from the default H: drive)
+            * `set-location C:`                           (This will take you to the C: drive from the default H: drive)
             
             * `cd users`
     
-            * `cd (your login username)`                      (your school login username: ie. nguyenj (John Nguyen); gub (Brendon Gu))
+            * `cd (your login username)`                  (your school login username: ie. nguyenj (John Nguyen); gub (Brendon Gu))
     
-            * `mkdir Meteor`                                  (This will create a Meteor directory (folder) in your personal folder)
+            * `mkdir Meteor`                              (This will create a Meteor directory (folder) in your personal folder)
     
     - If you are using a personal computer, you just need to create the folder in your C:\ drive. This can be done by just using File Explorer.
             
@@ -37,9 +37,9 @@ computer.
             
          * `cd us-uniprep-master`
             
-         * `meteor npm install`
+         * `meteor npm install`                            (This may take a while.)
             
-         * `meteor`
+         * `meteor`                                        (This may also take a while. Wait until it says "App running at: http://localhost:3000/")
             
-          
+6. Ensure that the application is running by going to http://localhost:3000/.            
           
