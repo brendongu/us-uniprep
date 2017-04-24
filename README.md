@@ -36,6 +36,8 @@ computer.
          * `cd Meteor`
             
          * `cd us-uniprep-master`
+         
+         * `cd us-uniprep-master`
             
          * `meteor npm install`                            (This may take a while.)
             
