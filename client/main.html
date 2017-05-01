@@ -2,13 +2,6 @@
   <title>Uniprep</title>
 </head>
 
-<body>
-  <h1>Uniprep College Searcher</h1>
-  <br>
-  {{> search}}
-</body>
-
-
 <template name="search">
   <div class="page-header clearfix">
     <h4 class="pull-left">Colleges</h4>
@@ -19,7 +12,7 @@
 
   <ul class="list-group">
     {{#if searching}}
-      {{> loading}}
+      Loading...
     {{else}}
       {{#each colleges}}
         <li class="list-group-item clearfix">
@@ -31,8 +24,4 @@
       {{/each}}
     {{/if}}
   </ul>
-</template>
-
-<template name="loading">
- <IMG SRC="giphy.gif">
 </template>
