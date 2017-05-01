@@ -45,3 +45,6 @@ computer.
             
 6. Ensure that the application is running by going to http://localhost:3000/.            
           
+---
+
+**NOTE: The application, while almost completely finished, is not completely finished. The college search, found in files main.js (client), main.js (server), main.html, and albums.js, does not work. If you want to and can fix it, or if you want to change anything else, feel free.**
