@@ -31,7 +31,7 @@ computer.
 4. Extract the zip into the Meteor folder just created.
 5. Run the app.
 
-    - Next, in Powershell/Command Prompt:
+    - In Powershell/Command Prompt:
             
          * `cd Meteor`
             
