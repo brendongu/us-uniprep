@@ -24,5 +24,5 @@ Meteor.publish( 'colleges2', function( search ) {
     projection.limit = 10;
   }
 
-  return Colleges.find( query, projection );
+  return Colleges2.find( query, projection );
 });
