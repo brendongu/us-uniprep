@@ -26,7 +26,7 @@ Template.search.helpers({
     return Template.instance().searchQuery.get();
   },
   colleges() {
-    let colleges = Colleges.find();
+    let colleges = Colleges2.find();
     if ( colleges ) {
       return colleges;
     }
@@ -47,4 +47,5 @@ Template.search.events({
     }
   }
 });
+
 
