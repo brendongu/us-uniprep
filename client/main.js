@@ -48,4 +48,5 @@ Template.search.events({
   }
 });
 
+/* Helper methods for main.html */
 
