@@ -10,3 +10,5 @@ Template.MyColleges.helpers({
 		return Colleges.find({applied: true});
 	}
 });
+
+/* Helper methods for MyColleges.html */
