@@ -9,3 +9,7 @@ Template.Profile.helpers({
 		return Colleges.find({});
 	}
 });
+
+
+/* Helper methods for MyColleges.html
+Probably not needed */
