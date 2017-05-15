@@ -50,6 +50,5 @@ computer.
 
 **
 Also, if you want add or change anything, feel free.
+We tried to comment how each file works and what it does
 **
-
-We also tried to comment how each file works and what it does.**
