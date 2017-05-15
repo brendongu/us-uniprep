@@ -45,6 +45,11 @@ computer.
           
 ---
 
-**NOTE: The application, while almost completely finished, is not completely finished. The college search, found in files main.js (client), main.js (server), main.html, and albums.js, does not work. If you want to and can fix it, or if you want to change anything else, feel free.
+**NOTE: The college search, found in files main.js (client), main.js (server), main.html, and albums.js, is a little finicky. The Mongo collection of colleges, in albums.js, is commented out by default. To add the colleges, just uncomment all lines starting with Meteor.insert(... . Then, comment them out again so they aren't added to the collection multiple times. If something goes wrong and a college is entered mutiple times, you can just delete everything in the collection or uncomment the lines starting with Meteor.remove(... .
+**
+
+**
+Also, if you want add or change anything, feel free.
+**
 
 We also tried to comment how each file works and what it does.**
