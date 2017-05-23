@@ -52,6 +52,6 @@ We tried to comment how each file works and what it does, but only got to a few 
 You can email any of us if you have questions, and we'll try our best.**
 
 - John Nguyen - mjrnguyen@gmail.com
-- Brendon Gu - brendnongu@gmail.com
+- Brendon Gu - brendongu@gmail.com
 - Matthew Hallac - matthewhallac@gmail.com
 - Kinjal Jasani - kjasani111@gmail.com
