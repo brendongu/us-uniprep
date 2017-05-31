@@ -33,9 +33,11 @@ computer.
 
     - In Powershell/Command Prompt:
             
-         * `cd Meteor`
+        - 
             
-         * `cd us-uniprep-master`
+            * `cd Meteor`
+            
+            * `cd us-uniprep-master`
             
          * `meteor npm install`                            (This may take a while.)
             
