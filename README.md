@@ -31,13 +31,11 @@ computer.
 4. Extract the zip into the Meteor folder just created.
 5. Run the app.
 
-    - In Powershell/Command Prompt:
+    - In Powershell/Command Prompt:        
+        
+         * `cd Meteor`
             
-        - 
-            
-            * `cd Meteor`
-            
-            * `cd us-uniprep-master`
+         * `cd us-uniprep-master`
             
          * `meteor npm install`                            (This may take a while.)
             
