@@ -48,7 +48,7 @@ computer.
 
 **Also, if you want add or change anything, feel free.
 We tried to comment how each file works and what it does, but only got to a few of them.
-You can email any of us if you have questions, and we'll try our best.**
+You can email any of us if you have questions or something doesn't work, and we'll try our best to help.**
 
 - John Nguyen - mjrnguyen@gmail.com
 - Brendon Gu - brendongu@gmail.com
